@@ -10,11 +10,13 @@ A predictive engine using radiobiology, **graph neural networks** and **multi‑
 A **deep reinforcement learning** system that recommends dose‑adaptation policies balancing tumor control and toxicity.
 
 A patent is pending, so the source code is not public. A live demonstration is available:
-- [ARCliDS Shiny App](https://arclids.shinyapps.io/ARCliDS/).   
+- [ARCliDS Shiny App](https://arclids.shinyapps.io/ARCliDS/).
+
+**Note:** The app may take time to load because ARTE performs inference across **20 predictive models** over **45 decision points**, while ODM uses **5 models**. I choose 5 models per step for statistical ensembling to estimate model uncertainty. Since ARCliDS is hosted on **shinyapps.io**, which is not a high‑performance server, this computational workload can increase startup time.
 
 Includes implementations for:
-- NSCLC adaptive Radiotherapy
-- HCC adaptive SBRT
+- **NSCLC adaptive Radiotherapy**
+- **HCC adaptive SBRT**
 
 **Publication:**
 D. Niraula _et al., A clinical decision support system for AI-assisted decision-making in response-adaptive radiotherapy (ARCliDS)_. Scientific Reports 13, 5279 (2023).  
