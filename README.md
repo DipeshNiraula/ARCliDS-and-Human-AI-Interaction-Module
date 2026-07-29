@@ -19,7 +19,7 @@ Includes implementations for:
 - **HCC adaptive SBRT**
 
 **Publication:**
-D. Niraula _et al., A clinical decision support system for AI-assisted decision-making in response-adaptive radiotherapy (ARCliDS)_. Scientific Reports 13, 5279 (2023).  
+D. Niraula _et al., A clinical decision support system for AI-assisted decision-making in response-adaptive radiotherapy (ARCliDS)_. **Scientific Reports** 13, 5279 (2023).  
 - [Paper](https://www.nature.com/articles/s41598-023-32032-6)
 - [Supplementary Materials](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-023-32032-6/MediaObjects/41598_2023_32032_MOESM1_ESM.pdf). 
 
@@ -34,7 +34,7 @@ I developed two interactive platforms that allow clinicians to remotely evaluate
 - Practical evaluation of AI‑assisted dose‑adaptation strategies
 
 **Publication:**
-D. Niraula _et al., Intricacies of Human-AI Interaction in Dynamic Decision-Making for Precision Oncology: A Case Study in Response-Adaptive Radiotherapy_, Nature Communications,16, 1138 (2025).  
+D. Niraula _et al., Intricacies of Human-AI Interaction in Dynamic Decision-Making for Precision Oncology: A Case Study in Response-Adaptive Radiotherapy_, **Nature Communications**,16, 1138 (2025).  
 More details are available in:
 - [Paper](https://www.nature.com/articles/s41467-024-55259-x) 
 - [Supplementary Material](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-024-55259-x/MediaObjects/41467_2024_55259_MOESM1_ESM.pdf)
