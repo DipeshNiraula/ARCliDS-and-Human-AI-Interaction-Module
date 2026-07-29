@@ -2,7 +2,7 @@
 
 ARCliDS is a clinician‑facing AI platform designed to support response‑adaptive radiotherapy. It combines predictive modeling with reinforcement‑learning–based decision support to help clinicians personalize treatment strategies.
 
-** What I Built**
+**What I Built**  
 - **Artificial Radiotherapy Environment (ARTE):**    
 A predictive engine using radiobiology, **graph neural networks** and **multi‑omics** data to model tumor and normal‑tissue response under different dose‑adaptation strategies.
 
@@ -12,7 +12,7 @@ A **deep reinforcement learning** system that recommends dose‑adaptation polic
 A patent is pending, so the source code is not public. A live demonstration is available:
 - [ARCliDS Shiny App](https://arclids.shinyapps.io/ARCliDS/).
 
-**Note:** The app may take time to load because ARTE performs inference across **20 predictive models** over **45 decision points**, while ODM uses **5 models**. I choose 5 models per step for statistical ensembling to estimate model uncertainty. Since ARCliDS is hosted on **shinyapps.io**, which is not a high‑performance server, this computational workload can increase startup time.
+**Note:** The app may take time to load because ARTE performs inference across **20 (4x5) predictive models** over **45 decision points**, while ODM uses **5 models**. I choose 5 models per step for statistical ensembling to estimate model uncertainty. Since ARCliDS is hosted on **shinyapps.io**, which is not a high‑performance server, this computational workload can increase startup time.
 
 Includes implementations for:
 - **NSCLC adaptive Radiotherapy**
